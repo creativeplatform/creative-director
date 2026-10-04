@@ -1,0 +1,11 @@
+node_modules
+deployment
+tests
+artifacts
+.git
+.cursor
+.vscode
+.env
+.env.*
+*.md
+!skills/**/*.md

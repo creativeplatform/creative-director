@@ -31,6 +31,8 @@ COPY lib ./lib
 COPY tools ./tools
 COPY agents ./agents
 COPY skills ./skills
+COPY data ./data
+COPY scripts ./scripts
 
 RUN npm ci --omit=dev
 
