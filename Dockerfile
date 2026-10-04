@@ -43,4 +43,4 @@ USER myuser
 
 EXPOSE 8080
 
-CMD ["npx", "adk", "api_server", "agent.ts", "--port", "8080", "--host", "0.0.0.0"]
+CMD ["node", "scripts/run-adk.mjs", "api_server", "agent.ts", "--port", "8080", "--host", "0.0.0.0"]

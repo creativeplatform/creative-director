@@ -25,7 +25,7 @@ export function createCreativeDirectorModel(): Gemini {
     return new Gemini({
       model: 'gemini-3.5-flash',
       vertexai: true,
-      project: process.env.GOOGLE_CLOUD_PROJECT,
+      project: process.env.GOOGLE_CLOUD_PROJECT || 'creative-ai-491118',
       location: 'global',
     });
   }
